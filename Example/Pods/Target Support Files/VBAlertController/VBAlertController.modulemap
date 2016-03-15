@@ -1,0 +1,6 @@
+framework module VBAlertController {
+  umbrella header "VBAlertController-umbrella.h"
+
+  export *
+  module * { export * }
+}

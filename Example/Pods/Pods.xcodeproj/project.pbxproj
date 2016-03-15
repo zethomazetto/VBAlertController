@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1749E4AF2AF6377390403732A9CAAD5F /* Pods-VBAlertController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F44EF466B28EA6C63735A00619EC95FB /* Pods-VBAlertController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B8A8AC43707B940764FB62ED0E878AD /* Pods-VBAlertController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30D40BE108E1CB413288DCCF9C800DA6 /* Pods-VBAlertController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26FE3F79512FEFE5002FA66AA5BC480A /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 75212FD6F1B70ED14E9CF93C2F4C4D98 /* ReplaceMe.m */; };
+		37FE159DDB582854D44B336BEB8E1A8C /* VBAlertController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 276A0600113E37444C2D6041E7D16A5F /* VBAlertController.bundle */; };
+		688F16E9F31501F2390EBBE5D40072F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		76A8DBE7B694CE1A94B09A35B8763FE0 /* Pods-VBAlertController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6F2E9CA3195270B9674838CF585204 /* Pods-VBAlertController_Tests-dummy.m */; };
+		A175AD02B720F30F48DE911CE1B421E8 /* VBAlertController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6137C7549BE10BD257394D6FD19AD70F /* VBAlertController-dummy.m */; };
+		C95AB98B09B5788DAA3CA8FCEFB886CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		CFDF38049CBDC8C1A584F107CEA0EE56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		D23FAD2A5F8065EC4993774E798AF96E /* VBAlertController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE2004130E47A7A97BBE2947096575A2 /* VBAlertController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD02F815E5946A71030F7B27C13B762F /* Pods-VBAlertController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F45EA6776E4D3C7DB6F5E90A7C18BE /* Pods-VBAlertController_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		440A497C995572082DF2F2C1D0BB6E3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D691ACE5671FF3ACE4B8088230D15D4;
+			remoteInfo = VBAlertController;
+		};
+		4F6C2B25C28AC27D32708BDEE9F4A1A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C72C35F63428E905FE301EB9D7D4DBC1;
+			remoteInfo = "VBAlertController-VBAlertController";
+		};
+		F5F1F924B5FA3A52FAB092A05F3FCD16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D691ACE5671FF3ACE4B8088230D15D4;
+			remoteInfo = VBAlertController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03AF9D09A50D96F3265F89A38D7F2C4F /* VBAlertController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = VBAlertController.modulemap; sourceTree = "<group>"; };
+		0A7A605C496B08B40CBF2D7AA4ECE5FA /* Pods-VBAlertController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-VBAlertController_Tests.modulemap"; sourceTree = "<group>"; };
+		1BF1C6D8BB1E060CE888221E1B3F1DB4 /* Pods-VBAlertController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VBAlertController_Tests-resources.sh"; sourceTree = "<group>"; };
+		1C4011E790D3F65A26801DA8E2302893 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2462A394BE8DF99A901055D289DDCF97 /* VBAlertController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VBAlertController.xcconfig; sourceTree = "<group>"; };
+		25FB0292C88C3F692DCE048886E3E98D /* Pods-VBAlertController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VBAlertController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2695DBE3F17E9A03C83FD1F3619148F0 /* Pods-VBAlertController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VBAlertController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		276A0600113E37444C2D6041E7D16A5F /* VBAlertController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VBAlertController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B0D0D44F41767EDE2D1134B0224C8DD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E7965CFAFF9927B53C8244AE41AC802 /* Pods_VBAlertController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VBAlertController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30D40BE108E1CB413288DCCF9C800DA6 /* Pods-VBAlertController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VBAlertController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		37421AC0CA605AE08A250DE699A9DE53 /* VBAlertController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VBAlertController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3F669BA1EDA54E93B471FD41531ED52C /* Pods-VBAlertController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-VBAlertController_Example.modulemap"; sourceTree = "<group>"; };
+		400D95B85B82511562AF3881EF37D12A /* Pods-VBAlertController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VBAlertController_Example-resources.sh"; sourceTree = "<group>"; };
+		52C8BE0EDCEBF035FD488BF8F2C7A727 /* Pods-VBAlertController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VBAlertController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		59BC33262CDA019827984C856AFE9E93 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59F45EA6776E4D3C7DB6F5E90A7C18BE /* Pods-VBAlertController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VBAlertController_Example-dummy.m"; sourceTree = "<group>"; };
+		6137C7549BE10BD257394D6FD19AD70F /* VBAlertController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VBAlertController-dummy.m"; sourceTree = "<group>"; };
+		6F70432E9FE71237935EC55F26ECB942 /* Pods-VBAlertController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VBAlertController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		71531AF7D3494EFFB9B2F6BCD23ED89D /* Pods-VBAlertController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VBAlertController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		75212FD6F1B70ED14E9CF93C2F4C4D98 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		85179C67447C3E66605543E10DADA4E6 /* Pods_VBAlertController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VBAlertController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AD68E2E2604C0F351B1713E36A2B19F /* Pods-VBAlertController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VBAlertController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8E8C46F621568C0739215428BFAFF5B4 /* Pods-VBAlertController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VBAlertController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C17C8AFFC4E726839F7C5F9642FC7178 /* Pods-VBAlertController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VBAlertController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CA287B1624A1D5DFC3CB251A58CC1903 /* Pods-VBAlertController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VBAlertController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CB7A0E12C40C0D38CE7898F7F580D48D /* Pods-VBAlertController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VBAlertController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D17EFAA99D47AC437DFC27DE97ADEF33 /* VBAlertController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VBAlertController-prefix.pch"; sourceTree = "<group>"; };
+		DE6F2E9CA3195270B9674838CF585204 /* Pods-VBAlertController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VBAlertController_Tests-dummy.m"; sourceTree = "<group>"; };
+		EE2004130E47A7A97BBE2947096575A2 /* VBAlertController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VBAlertController-umbrella.h"; sourceTree = "<group>"; };
+		F44EF466B28EA6C63735A00619EC95FB /* Pods-VBAlertController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VBAlertController_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E1DE3E795B78E3C52B25C19CE2D6615 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDF38049CBDC8C1A584F107CEA0EE56 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		124A1A10C10186D005313F5733BCD52D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				688F16E9F31501F2390EBBE5D40072F6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BE1429853252EAE5DFA1E1815A712DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45093970167E63942E7160273A0A288 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C95AB98B09B5788DAA3CA8FCEFB886CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AF240D8342C67CE7406B8C52B0BC134 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				75212FD6F1B70ED14E9CF93C2F4C4D98 /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		249D33A108FF29BEA755F9F7A8F21602 /* Pods-VBAlertController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				59BC33262CDA019827984C856AFE9E93 /* Info.plist */,
+				3F669BA1EDA54E93B471FD41531ED52C /* Pods-VBAlertController_Example.modulemap */,
+				71531AF7D3494EFFB9B2F6BCD23ED89D /* Pods-VBAlertController_Example-acknowledgements.markdown */,
+				C17C8AFFC4E726839F7C5F9642FC7178 /* Pods-VBAlertController_Example-acknowledgements.plist */,
+				59F45EA6776E4D3C7DB6F5E90A7C18BE /* Pods-VBAlertController_Example-dummy.m */,
+				CB7A0E12C40C0D38CE7898F7F580D48D /* Pods-VBAlertController_Example-frameworks.sh */,
+				400D95B85B82511562AF3881EF37D12A /* Pods-VBAlertController_Example-resources.sh */,
+				F44EF466B28EA6C63735A00619EC95FB /* Pods-VBAlertController_Example-umbrella.h */,
+				6F70432E9FE71237935EC55F26ECB942 /* Pods-VBAlertController_Example.debug.xcconfig */,
+				52C8BE0EDCEBF035FD488BF8F2C7A727 /* Pods-VBAlertController_Example.release.xcconfig */,
+			);
+			name = "Pods-VBAlertController_Example";
+			path = "Target Support Files/Pods-VBAlertController_Example";
+			sourceTree = "<group>";
+		};
+		4AC8F40A9471FF388063BFF5E85C79B2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				249D33A108FF29BEA755F9F7A8F21602 /* Pods-VBAlertController_Example */,
+				9BFE9C2F8D0BBC271AE4F8D65BA5154B /* Pods-VBAlertController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				E8EAEC684F478C960FE1E7F9A3BCE9DA /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				8656D8FD3F19AECAE69D2B75BF7C670D /* Products */,
+				4AC8F40A9471FF388063BFF5E85C79B2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8656D8FD3F19AECAE69D2B75BF7C670D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85179C67447C3E66605543E10DADA4E6 /* Pods_VBAlertController_Example.framework */,
+				2E7965CFAFF9927B53C8244AE41AC802 /* Pods_VBAlertController_Tests.framework */,
+				276A0600113E37444C2D6041E7D16A5F /* VBAlertController.bundle */,
+				37421AC0CA605AE08A250DE699A9DE53 /* VBAlertController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BFE9C2F8D0BBC271AE4F8D65BA5154B /* Pods-VBAlertController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2B0D0D44F41767EDE2D1134B0224C8DD /* Info.plist */,
+				0A7A605C496B08B40CBF2D7AA4ECE5FA /* Pods-VBAlertController_Tests.modulemap */,
+				CA287B1624A1D5DFC3CB251A58CC1903 /* Pods-VBAlertController_Tests-acknowledgements.markdown */,
+				25FB0292C88C3F692DCE048886E3E98D /* Pods-VBAlertController_Tests-acknowledgements.plist */,
+				DE6F2E9CA3195270B9674838CF585204 /* Pods-VBAlertController_Tests-dummy.m */,
+				2695DBE3F17E9A03C83FD1F3619148F0 /* Pods-VBAlertController_Tests-frameworks.sh */,
+				1BF1C6D8BB1E060CE888221E1B3F1DB4 /* Pods-VBAlertController_Tests-resources.sh */,
+				30D40BE108E1CB413288DCCF9C800DA6 /* Pods-VBAlertController_Tests-umbrella.h */,
+				8E8C46F621568C0739215428BFAFF5B4 /* Pods-VBAlertController_Tests.debug.xcconfig */,
+				8AD68E2E2604C0F351B1713E36A2B19F /* Pods-VBAlertController_Tests.release.xcconfig */,
+			);
+			name = "Pods-VBAlertController_Tests";
+			path = "Target Support Files/Pods-VBAlertController_Tests";
+			sourceTree = "<group>";
+		};
+		9F82C0E6F9EBFDDC6E2C517F9C882B3C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0AF240D8342C67CE7406B8C52B0BC134 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CDCD390AD26763FB569406AF101BE43A /* VBAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				9F82C0E6F9EBFDDC6E2C517F9C882B3C /* Pod */,
+				EA0406025166AC80ACAC132EB8E0C444 /* Support Files */,
+			);
+			name = VBAlertController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E8EAEC684F478C960FE1E7F9A3BCE9DA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CDCD390AD26763FB569406AF101BE43A /* VBAlertController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		EA0406025166AC80ACAC132EB8E0C444 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C4011E790D3F65A26801DA8E2302893 /* Info.plist */,
+				03AF9D09A50D96F3265F89A38D7F2C4F /* VBAlertController.modulemap */,
+				2462A394BE8DF99A901055D289DDCF97 /* VBAlertController.xcconfig */,
+				6137C7549BE10BD257394D6FD19AD70F /* VBAlertController-dummy.m */,
+				D17EFAA99D47AC437DFC27DE97ADEF33 /* VBAlertController-prefix.pch */,
+				EE2004130E47A7A97BBE2947096575A2 /* VBAlertController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/VBAlertController";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		36F5F6EBFB7DB2BCA4CF5F39055843AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B8A8AC43707B940764FB62ED0E878AD /* Pods-VBAlertController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A1FDF11EBFFED314BB4F6BF5008C63 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1749E4AF2AF6377390403732A9CAAD5F /* Pods-VBAlertController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C81922DA9601B9BE8EF10785E78DADD9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23FAD2A5F8065EC4993774E798AF96E /* VBAlertController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3A5269A2B8F17033C40140D150F0B484 /* Pods-VBAlertController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2608E389A9DF8954754891DE8C1A46B8 /* Build configuration list for PBXNativeTarget "Pods-VBAlertController_Example" */;
+			buildPhases = (
+				9D5A13743B3B19328BF2E42F79941B1E /* Sources */,
+				124A1A10C10186D005313F5733BCD52D /* Frameworks */,
+				45A1FDF11EBFFED314BB4F6BF5008C63 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38256B44E0CFB566EA0B43B4B13836D8 /* PBXTargetDependency */,
+			);
+			name = "Pods-VBAlertController_Example";
+			productName = "Pods-VBAlertController_Example";
+			productReference = 85179C67447C3E66605543E10DADA4E6 /* Pods_VBAlertController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6D691ACE5671FF3ACE4B8088230D15D4 /* VBAlertController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC17F8CFAB7BE5CAB46CF50CED332C0B /* Build configuration list for PBXNativeTarget "VBAlertController" */;
+			buildPhases = (
+				1B0ED1151847F9B03F6D859F4FEB90B6 /* Sources */,
+				0E1DE3E795B78E3C52B25C19CE2D6615 /* Frameworks */,
+				35448240496DC22C1BC12A6BEDD54707 /* Resources */,
+				C81922DA9601B9BE8EF10785E78DADD9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B98F99849D06550DDD438C6B2BDF0D65 /* PBXTargetDependency */,
+			);
+			name = VBAlertController;
+			productName = VBAlertController;
+			productReference = 37421AC0CA605AE08A250DE699A9DE53 /* VBAlertController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C72C35F63428E905FE301EB9D7D4DBC1 /* VBAlertController-VBAlertController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CB660EEF4451C3AD448320C9C15D9D1 /* Build configuration list for PBXNativeTarget "VBAlertController-VBAlertController" */;
+			buildPhases = (
+				8A48D4311BCF02031A5F51D0B9AF8549 /* Sources */,
+				4BE1429853252EAE5DFA1E1815A712DE /* Frameworks */,
+				DC55BA8917BB7CF9D6C1F4472E7A5667 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VBAlertController-VBAlertController";
+			productName = "VBAlertController-VBAlertController";
+			productReference = 276A0600113E37444C2D6041E7D16A5F /* VBAlertController.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		D61026D6F9BD7998978566C355013DF2 /* Pods-VBAlertController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 983949586E54FC21BFF299986FE6E7A7 /* Build configuration list for PBXNativeTarget "Pods-VBAlertController_Tests" */;
+			buildPhases = (
+				0B6540FB91F201055F9EC8DEED0C2E76 /* Sources */,
+				E45093970167E63942E7160273A0A288 /* Frameworks */,
+				36F5F6EBFB7DB2BCA4CF5F39055843AA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50000ACE28247BA9F5946D8FFC0554C5 /* PBXTargetDependency */,
+			);
+			name = "Pods-VBAlertController_Tests";
+			productName = "Pods-VBAlertController_Tests";
+			productReference = 2E7965CFAFF9927B53C8244AE41AC802 /* Pods_VBAlertController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8656D8FD3F19AECAE69D2B75BF7C670D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A5269A2B8F17033C40140D150F0B484 /* Pods-VBAlertController_Example */,
+				D61026D6F9BD7998978566C355013DF2 /* Pods-VBAlertController_Tests */,
+				6D691ACE5671FF3ACE4B8088230D15D4 /* VBAlertController */,
+				C72C35F63428E905FE301EB9D7D4DBC1 /* VBAlertController-VBAlertController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35448240496DC22C1BC12A6BEDD54707 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37FE159DDB582854D44B336BEB8E1A8C /* VBAlertController.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC55BA8917BB7CF9D6C1F4472E7A5667 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B6540FB91F201055F9EC8DEED0C2E76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A8DBE7B694CE1A94B09A35B8763FE0 /* Pods-VBAlertController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B0ED1151847F9B03F6D859F4FEB90B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26FE3F79512FEFE5002FA66AA5BC480A /* ReplaceMe.m in Sources */,
+				A175AD02B720F30F48DE911CE1B421E8 /* VBAlertController-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A48D4311BCF02031A5F51D0B9AF8549 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D5A13743B3B19328BF2E42F79941B1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD02F815E5946A71030F7B27C13B762F /* Pods-VBAlertController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38256B44E0CFB566EA0B43B4B13836D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VBAlertController;
+			target = 6D691ACE5671FF3ACE4B8088230D15D4 /* VBAlertController */;
+			targetProxy = F5F1F924B5FA3A52FAB092A05F3FCD16 /* PBXContainerItemProxy */;
+		};
+		50000ACE28247BA9F5946D8FFC0554C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VBAlertController;
+			target = 6D691ACE5671FF3ACE4B8088230D15D4 /* VBAlertController */;
+			targetProxy = 440A497C995572082DF2F2C1D0BB6E3A /* PBXContainerItemProxy */;
+		};
+		B98F99849D06550DDD438C6B2BDF0D65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "VBAlertController-VBAlertController";
+			target = C72C35F63428E905FE301EB9D7D4DBC1 /* VBAlertController-VBAlertController */;
+			targetProxy = 4F6C2B25C28AC27D32708BDEE9F4A1A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		251B1EBF329B754F6394E783BAD5B912 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52C8BE0EDCEBF035FD488BF8F2C7A727 /* Pods-VBAlertController_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-VBAlertController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VBAlertController_Example/Pods-VBAlertController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_VBAlertController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2F6C2C6180E1CB0A1DBB0534A3253187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F70432E9FE71237935EC55F26ECB942 /* Pods-VBAlertController_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-VBAlertController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VBAlertController_Example/Pods-VBAlertController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_VBAlertController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4D572F1DF8EA92D8EC0BE2291B088C42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2462A394BE8DF99A901055D289DDCF97 /* VBAlertController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/VBAlertController/VBAlertController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VBAlertController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VBAlertController/VBAlertController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = VBAlertController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8A6D95FB69162CFDEA73B387CE254B6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AD68E2E2604C0F351B1713E36A2B19F /* Pods-VBAlertController_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-VBAlertController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VBAlertController_Tests/Pods-VBAlertController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_VBAlertController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A661E4469A0A88CB4CD5E5E0F6B3BFA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2462A394BE8DF99A901055D289DDCF97 /* VBAlertController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/VBAlertController/VBAlertController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VBAlertController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VBAlertController/VBAlertController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = VBAlertController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A7C731E44AE22DE45DD3D57EF63E696A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2462A394BE8DF99A901055D289DDCF97 /* VBAlertController.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = VBAlertController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		C522A49350B679C55D9B834579905DB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E8C46F621568C0739215428BFAFF5B4 /* Pods-VBAlertController_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-VBAlertController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VBAlertController_Tests/Pods-VBAlertController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_VBAlertController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DABB807670B36769476E405069B1984B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2462A394BE8DF99A901055D289DDCF97 /* VBAlertController.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = VBAlertController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2608E389A9DF8954754891DE8C1A46B8 /* Build configuration list for PBXNativeTarget "Pods-VBAlertController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F6C2C6180E1CB0A1DBB0534A3253187 /* Debug */,
+				251B1EBF329B754F6394E783BAD5B912 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CB660EEF4451C3AD448320C9C15D9D1 /* Build configuration list for PBXNativeTarget "VBAlertController-VBAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DABB807670B36769476E405069B1984B /* Debug */,
+				A7C731E44AE22DE45DD3D57EF63E696A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		983949586E54FC21BFF299986FE6E7A7 /* Build configuration list for PBXNativeTarget "Pods-VBAlertController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C522A49350B679C55D9B834579905DB1 /* Debug */,
+				8A6D95FB69162CFDEA73B387CE254B6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC17F8CFAB7BE5CAB46CF50CED332C0B /* Build configuration list for PBXNativeTarget "VBAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D572F1DF8EA92D8EC0BE2291B088C42 /* Debug */,
+				A661E4469A0A88CB4CD5E5E0F6B3BFA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
