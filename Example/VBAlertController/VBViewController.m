@@ -44,12 +44,6 @@
     
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 - (IBAction)showAlert:(id)sender {
     
     [self.alert setVibration:NO];
