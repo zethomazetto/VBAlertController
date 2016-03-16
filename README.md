@@ -1,6 +1,6 @@
 # VBAlertController
 
-[![CI Status](http://img.shields.io/travis/Ezequiel Thomazetto/VBAlertController.svg?style=flat)](https://travis-ci.org/Ezequiel Thomazetto/VBAlertController)
+[![CI Status](http://img.shields.io/travis/zethomazetto/VBAlertController.svg?style=flat)](https://travis-ci.org/zethomazetto/VBAlertController)
 [![Version](https://img.shields.io/cocoapods/v/VBAlertController.svg?style=flat)](http://cocoapods.org/pods/VBAlertController)
 [![License](https://img.shields.io/cocoapods/l/VBAlertController.svg?style=flat)](http://cocoapods.org/pods/VBAlertController)
 [![Platform](https://img.shields.io/cocoapods/p/VBAlertController.svg?style=flat)](http://cocoapods.org/pods/VBAlertController)
