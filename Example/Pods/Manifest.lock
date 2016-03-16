@@ -1,5 +1,5 @@
 PODS:
-  - VBAlertController (0.1.0)
+  - VBAlertController (0.0.1)
 
 DEPENDENCIES:
   - VBAlertController (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  VBAlertController: 5ae4ea663439ab86572683dcb28d7582c76cd6c7
+  VBAlertController: 2b92c407908839ba6083b080d5c00a88f8aba2ee
 
 COCOAPODS: 0.39.0
